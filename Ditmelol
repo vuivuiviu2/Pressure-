@@ -41,7 +41,7 @@ print("✅ Âm thanh Underwater đã bật.")
 
 -- 🔁 VÒNG LẶP: Cập nhật mỗi phòng
 while true do
-    task.wait(0.5)
+    task.wait(999)
     
     local latestRoom = ReplicatedStorage:WaitForChild("GameData"):WaitForChild("LatestRoom").Value
     local room = Workspace.CurrentRooms:FindFirstChild(tostring(latestRoom))
